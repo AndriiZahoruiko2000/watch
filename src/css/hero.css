@@ -1,0 +1,37 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.hero_title {
+  font-size: 40px;
+  line-height: 0.95;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+.hero_title-accent {
+  color: #3350e9;
+}
+
+.hero_description {
+  font-size: 14px;
+  line-height: 18px;
+  color: #0c0c0cb2;
+  margin-bottom: 28px;
+}
+
+.hero_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.hero_btn {
+  align-self: flex-end;
+}
+
+.hero_img {
+  width: 335px;
+  height: 366px;
+}
