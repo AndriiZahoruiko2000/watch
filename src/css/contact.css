@@ -1,0 +1,29 @@
+/* .contact {
+  background-color: #0c0c0c;
+} */
+
+.contact .container {
+  padding: 60px 28px;
+  background-color: #0c0c0c;
+  border-radius: 30px;
+}
+
+.contact_text {
+  font-size: 32px;
+  line-height: 1;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.contact_accent {
+  color: #fbfbfb80;
+}
+
+.contact_btn {
+  font-size: 14px;
+  line-height: 1.28;
+  border-radius: 16px;
+  border: 1px solid #fbfbfb26;
+  padding: 15px 44px;
+  color: #fbfbfb;
+}
