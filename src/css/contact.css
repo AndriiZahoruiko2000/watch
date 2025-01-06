@@ -27,3 +27,36 @@
   padding: 15px 44px;
   color: #fbfbfb;
 }
+
+@media only screen and (min-width: 768px) {
+  .contact .container {
+    padding: 80px 64px;
+  }
+
+  .contact_text {
+    font-size: 48px;
+    line-height: 1.09;
+  }
+
+  .contact_btn {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact .container {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+  }
+
+  .contact_text {
+    width: 690px;
+  }
+
+  .contact_btn {
+    align-self: flex-start;
+    padding: 15px 44px;
+  }
+}
