@@ -1,0 +1,128 @@
+.sale {
+  margin-bottom: 30px;
+}
+
+.sale_title {
+  font-size: 32px;
+  line-height: 1;
+  color: #0c0c0c;
+  padding-bottom: 24px;
+}
+
+.sale_list {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.sale_item {
+  border-radius: 16px;
+  border: 1px;
+  /* width: 52px;
+  height: 54px; */
+  background-color: #f3f3f3;
+  padding: 13px 14px;
+}
+
+.main_img {
+  background-color: #f3f3f3;
+  padding: 50px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  background-color: #3350e9;
+  border-radius: 30px;
+  padding: 48px 28px;
+}
+
+.wrapper_title {
+  font-size: 24px;
+  line-height: 1.16;
+  color: #fbfbfb;
+  padding-bottom: 16px;
+}
+
+.wrapper_tag {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb80;
+}
+
+.wrapper_discount-price {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fbfbfb;
+  background-color: #fbfbfb1a;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.wrapper_price {
+  font-size: 12px;
+  line-height: 1.16;
+  color: #fbfbfb80;
+  text-decoration: line-through;
+}
+
+.wrapper_text {
+  margin: 28px 0;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfbb2;
+}
+
+.wrapper_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.wrapper_item {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 8px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale_box {
+    display: flex;
+    align-items: center;
+  }
+
+  .sale_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .sale_item {
+    width: 132px;
+    height: 132px;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px;
+    background-color: #0c0c0c0d;
+  }
+
+  .main_img {
+    flex: 1;
+    width: 328px;
+    height: 398px;
+    padding: 80px 112px;
+    border-radius: 50px;
+    border: 1px;
+    display: flex;
+    background-color: #0c0c0c0d;
+  }
+}
