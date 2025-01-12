@@ -1,3 +1,7 @@
+.contact_us {
+  padding-bottom: 20px;
+}
+
 .contact_us-title {
   font-size: 32px;
   line-height: 1;
@@ -9,6 +13,7 @@
   background-color: #f3f3f3;
   padding: 48px 28px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 .contact_us-text {
@@ -58,4 +63,80 @@
   display: block;
   padding: 12px 50px;
   align-self: flex-start;
+}
+
+.contact_us-img {
+  width: 335px;
+  height: 512px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact_us-box {
+    padding: 50px 122px;
+  }
+
+  .contact_us-title {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+  }
+
+  .contact_us-text {
+    width: 460px;
+  }
+
+  .contact_us-input {
+    width: 460px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+  }
+
+  .contact_us-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+  }
+
+  .contact_us-comment {
+    width: 460px;
+  }
+
+  .contact_us-comment::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+  }
+
+  .contact_us-btn {
+    padding: 17px 63px;
+  }
+
+  .contact_us-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact_us-title {
+    font-size: 48px;
+    line-height: 0.91;
+    color: #0c0c0c;
+  }
+
+  .contact_us-wrapper {
+    display: flex;
+  }
+
+  .contact_us-box {
+    width: 580px;
+    border-radius: 50px;
+    background-color: #f3f3f3;
+    margin-right: 40px;
+    padding: 50px;
+    margin-right: 40px;
+  }
+  .contact_us-comment {
+    margin-bottom: 32px;
+  }
 }
