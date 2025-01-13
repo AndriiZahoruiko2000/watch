@@ -15,6 +15,71 @@
       <img src="./img/image.png" alt="dark watch" />
       <button type="button" class="hero_btn underline_btn">Scroll down</button>
     </div>
-    <img src="./img/Rectangle 10.png" alt="dark watch" class="hero_img" />
+    <picture>
+      <source
+        srcset="
+          ./img/hero/desktop/hero.desktop.webp    1x,
+          ./img/hero/desktop/hero.desktop@2x.webp 2x,
+          ./img/hero/desktop/hero.desktop@3x.webp 3x
+        "
+        media="(min-width: 1200px) "
+        type="image/png"
+      />
+
+      <source
+        srcset="
+          ./img/hero/desktop/hero.desktop.png    1x,
+          ./img/hero/desktop/hero.desktop@2x.png 2x,
+          ./img/hero/desktop/hero.desktop@3x.png 3x
+        "
+        media="(min-width: 1200px) "
+        type="image/png"
+      />
+
+      <source
+        srcset="
+          ./img/hero/tablet/hero.tablet.webp    1x,
+          ./img/hero/tablet/hero.tablet@2x.webp 2x,
+          ./img/hero/tablet/hero.tablet@3x.webp 3x
+        "
+        media="(min-width: 768px) "
+        type="image/png"
+      />
+
+      <source
+        srcset="
+          ./img/hero/tablet/hero.tablet.png    1x,
+          ./img/hero/tablet/hero.tablet@2x.png 2x,
+          ./img/hero/tablet/hero.tablet@3x.png 3x
+        "
+        media="(min-width: 768px) "
+        type="image/png"
+      />
+
+      <source
+        srcset="
+          ./img/hero/mobile/hero.mobile.webp    1x,
+          ./img/hero/mobile/hero.mobile@2x.webp 2x,
+          ./img/hero/mobile/hero.mobile@3x.webp 3x
+        "
+        media="(max-width: 767px)"
+        type="image/webp"
+      />
+
+      <source
+        srcset="
+          ./img/hero/mobile/hero.mobile.png    1x,
+          ./img/hero/mobile/hero.mobile@2x.png 2x,
+          ./img/hero/mobile/hero.mobile@3x.png 3x
+        "
+        media="(max-width: 767px)"
+        type="image/png"
+      />
+      <img
+        src="./img/hero/mobile/hero.mobile.png"
+        alt="dark watch"
+        class="hero_img"
+      />
+    </picture>
   </div>
 </section>

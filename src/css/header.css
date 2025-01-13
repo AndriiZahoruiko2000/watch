@@ -45,6 +45,21 @@
 
 .header {
   padding: 20px 0;
+  position: relative;
+}
+
+.mobile_menu {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  transform: translateX(100%);
+}
+
+.mobile_menu.is-open {
+  transform: translateX(0);
 }
 
 .nav {
@@ -75,6 +90,10 @@
   .header {
     padding: 26px 0;
   }
+
+  .mobile_menu {
+    width: 330px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -86,5 +105,9 @@
   }
   .social_list {
     display: flex;
+  }
+
+  .mobile_menu {
+    display: none;
   }
 }
