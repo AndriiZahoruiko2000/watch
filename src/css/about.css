@@ -64,6 +64,10 @@ p.about_description:last-of-type {
     margin-bottom: 0px;
   }
 
+  .about_description {
+    width: 480px;
+  }
+
   .about_img {
     width: 530px;
     height: 532px;
