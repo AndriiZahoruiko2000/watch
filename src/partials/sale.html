@@ -5,10 +5,29 @@
       <div class="sale_box">
         <ul class="sale_list">
           <li class="sale_item">
-            <img
-              src="./img/telegram-cloud-document-2-5398046800353443485 1.jpg"
-              alt=""
-            />
+            <picture>
+              <source
+                srcset="
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo.png    1x,
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo@2x.png 2x,
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo@3x.png 3x
+                "
+                media="(max-width: 767px)"
+                type="image/png" />
+
+              <source
+                srcset="
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo.webp    1x,
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo@2x.webp 2x,
+                  ./img/sale/mobile/first.sale-photo/mobile.first-sale.photo@3x.webp 3x
+                "
+                media="(max-width: 767px)"
+                type="image/webp" />
+
+              <img
+                src="./img/sale/mobile/first.sale-photo/mobile.first-sale.photo.png"
+                alt=""
+            /></picture>
           </li>
           <li class="sale_item">
             <img
