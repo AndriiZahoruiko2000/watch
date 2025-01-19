@@ -20,7 +20,66 @@
           <button class="contact_us-btn" type="button">Send</button>
         </form>
       </div>
-      <img class="contact_us-img" src="./img/Rectangle 11.png" alt="" />
+      <picture>
+        <source
+          srcset="
+            ./img/contact_us/desktop/desktop.main-contact.photo.webp    1x,
+            ./img/contact_us/desktop/desktop.main-contact.photo@2x.webp 2x,
+            ./img/contact_us/desktop/desktop.main-contact.photo@3x.webp 3x
+          "
+          media="(min-width: 1200px)"
+          type="image/webp" />
+
+        <source
+          srcset="
+            ./img/contact_us/desktop/desktop.main-contact.photo.png    1x,
+            ./img/contact_us/desktop/desktop.main-contact.photo@2x.png 2x,
+            ./img/contact_us/desktop/desktop.main-contact.photo@3x.png 3x
+          "
+          media="(min-width: 1200px)"
+          type="image/png" />
+
+        <source
+          srcset="
+            ./img/contact_us/tablet/tablet.main-contact.photo.webp    1x,
+            ./img/contact_us/tablet/tablet.main-contact.photo@2x.webp 2x,
+            ./img/contact_us/tablet/tablet.main-contact.photo@3x.webp 3x
+          "
+          media="(min-width: 768px)"
+          type="image/webp" />
+
+        <source
+          srcset="
+            ./img/contact_us/tablet/tablet.main-contact.photo.png    1x,
+            ./img/contact_us/tablet/tablet.main-contact.photo@2x.png 2x,
+            ./img/contact_us/tablet/tablet.main-contact.photo@3x.png 3x
+          "
+          media="(min-width: 768px)"
+          type="image/png" />
+
+        <source
+          srcset="
+            ./img/contact_us/mobile/mobile.main-contact.photo.webp    1x,
+            ./img/contact_us/mobile/mobile.main-contact.photo@2x.webp 2x,
+            ./img/contact_us/mobile/mobile.main-contact.photo@3x.webp 3x
+          "
+          media="(max-width: 767px)"
+          type="image/webp" />
+
+        <source
+          srcset="
+            ./img/contact_us/mobile/mobile.main-contact.photo.png    1x,
+            ./img/contact_us/mobile/mobile.main-contact.photo@2x.png 2x,
+            ./img/contact_us/mobile/mobile.main-contact.photo@3x.png 3x
+          "
+          media="(max-width: 767px)"
+          type="image/png" />
+
+        <img
+          class="contact_us-img"
+          src="./img/contact_us/mobile/mobile.main-contact.photo.png"
+          alt=""
+      /></picture>
     </div>
   </div>
 </section>
