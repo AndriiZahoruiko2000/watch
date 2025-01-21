@@ -71,9 +71,47 @@
   gap: 40px;
 }
 
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 50%;
+  background-color: blue;
+  top: 25px;
+
+  left: 50%;
+  transform: translateX(50%);
+}
+
 .social_list {
   display: none;
   gap: 40px;
+}
+
+.social_link {
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.social_link:hover,
+.social_link:focus {
+  border-color: rgba(51, 80, 233, 1);
+}
+
+.social_link svg {
+  fill: red;
+}
+
+.social_link:hover svg,
+.social_link:focus svg {
+  fill: blue;
 }
 
 .header .container {
