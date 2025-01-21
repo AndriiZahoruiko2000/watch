@@ -47,19 +47,29 @@
   padding: 20px 0;
   position: relative;
 }
-
+  
 .mobile_menu {
   position: absolute;
   background-color: black;
   top: 0;
   right: 0;
-  width: 200px;
+  width: 100%;
   height: 100vh;
   transform: translateX(100%);
 }
 
 .mobile_menu.is-open {
-  transform: translateX(0);
+  transform: translateX(100);
+}
+
+.mobile_menu-list {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mobile_menu-item {
+color: #FBFBFB;
 }
 
 .nav {
