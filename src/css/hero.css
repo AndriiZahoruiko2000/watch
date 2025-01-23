@@ -28,7 +28,18 @@
 }
 
 .hero_btn {
+  position: relative;
   align-self: flex-end;
+}
+
+.hero_btn::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: red;
 }
 
 /* .hero_img {
