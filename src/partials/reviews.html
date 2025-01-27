@@ -5,12 +5,27 @@
       <li class="reviews_item">
         <picture>
           <source
+            srcset="./img/reviews/tablet/John Wax/tablet.reviews-john.png 1x,
+          ./img/reviews/tablet/John Wax/tablet.reviews-john@2x.png 2x,
+          ./img/reviews/tablet/John Wax/tablet.reviews-john@3x.png 3x" />
+
+          <source
+            srcset="
+              ./img/reviews/mobile/mobile.reviews-john.webp    1x,
+              ./img/reviews/mobile/mobile.reviews-john@2x.webp 2x,
+              ./img/reviews/mobile/mobile.reviews-john@3x.webp 3x
+            "
+            media="max-width: 767px"
+            type="image/webp" />
+
+          <source
             srcset="
               ./img/reviews/mobile/mobile.reviews-john.png    1x,
               ./img/reviews/mobile/mobile.reviews-john@2x.png 2x,
               ./img/reviews/mobile/mobile.reviews-john@3x.png 3x
             "
-            media="min" />
+            media="(max-width: 767px)"
+            type="image/png" />
 
           <img
             class="reviews_img"
@@ -26,7 +41,49 @@
         </p>
       </li>
       <li class="reviews_item">
-        <img class="reviews_img" src="./img/ggggg.png" alt="" />
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria.webp    1x,
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria@2x.webp 2x,
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria@3x.webp 3x
+            "
+            media="(min-width: 1200px)"
+            type="image/webp" />
+
+          <source
+            srcset="
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria.png    1x,
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria@2x.png 2x,
+              ./img/reviews/desktop/victoria/desktop.reviews-victoria@3x.png 3x
+            "
+            media="(min-width: 1200px)"
+            type="image/png" />
+
+          <source
+            srcset="
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria.webp    1x,
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria@2x.webp 2x,
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria@3x.webp 3x
+            "
+            media="(min-width: 768px)"
+            type="image/webp" />
+
+          <source
+            srcset="
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria.png    1x,
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria@2x.png 2x,
+              ./img/reviews/tablet/victoria/tablet.reviews-victoria@3x.png 3x
+            "
+            media="(min-width: 768px)"
+            type="image/png" />
+
+          <img
+            class="reviews_img"
+            src="./img/reviews/tablet/Victoria Romashenko/tablet.reviews-victoria.png"
+            alt=""
+        /></picture>
+
         <h3 class="reviews_name">Victoria Romashenko</h3>
         <p class="reviews_text">
           Can't take my eyes off my watch from. Every time I put it on, it is
