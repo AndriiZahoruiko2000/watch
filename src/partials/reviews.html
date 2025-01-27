@@ -3,7 +3,21 @@
     <h2 class="reviews_title">Reviews</h2>
     <ul class="reviews_list">
       <li class="reviews_item">
-        <img class="reviews_img" src="./img/ggggg.png" alt="" />
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/mobile/mobile.reviews-john.png    1x,
+              ./img/reviews/mobile/mobile.reviews-john@2x.png 2x,
+              ./img/reviews/mobile/mobile.reviews-john@3x.png 3x
+            "
+            media="min" />
+
+          <img
+            class="reviews_img"
+            src="./img/reviews/mobile/mobile.reviews-john.png"
+            alt=""
+        /></picture>
+
         <h3 class="reviews_name">John Wax</h3>
         <p class="reviews_text">
           Buying a watch from was the best choice for me. The design is
