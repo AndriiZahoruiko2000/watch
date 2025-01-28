@@ -43,7 +43,7 @@
 .close_btn {
   background-color: red;
   width: 35px;
-  height: 25px;
+  height: 35px;
   border-radius: 50%;
   position: absolute;
   top: 15px;
@@ -89,7 +89,6 @@
   border-radius: 50%;
   background-color: blue;
   top: 25px;
-
   left: 50%;
   transform: translateX(-50%);
 }
@@ -130,10 +129,9 @@
   padding: 26px 10px;
 }
 
-/* .open_mobile-menu {
-  width: 26px;
-  height: 10px;
-} */
+.open_mobile-menu {
+  background-color: red;
+}
 
 @media only screen and (min-width: 768px) {
   .header {
